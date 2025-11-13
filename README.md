@@ -15,6 +15,12 @@ docker compose up
 # 3. 헬스체크
 curl http://localhost:8080/health
 # 응답: OK
+
+# 4. 중지
+docker compose down
+
+# 5. 전체 재시작
+docker compose restart
 ```
 
 ## 02. 테스트 실행
